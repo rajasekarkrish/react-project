@@ -22,7 +22,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure--)i)*u7ec&z0+v3_(1cm1ym@+aguyo1e015jsa6hby!%f#niqb'
+SECRET_KEY = os.environ.get('secrete_key')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -99,10 +99,10 @@ WSGI_APPLICATION = 'core.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE':'django.db.backends.mysql',
-        'NAME': 'db2',
-        'USER':'root',
-        'PASSWORD': '',
-        'HOST': '127.0.0.1',
+        'NAME': os.environ.get('db_name'),
+        'USER':os.environ.get('user'),
+        'PASSWORD': os.environ.get('password'),
+        'HOST': os.environ.get('host'),
         'PORT':'4306',
     }
 }
@@ -214,15 +214,15 @@ SIMPLE_JWT = {
 
 
 # For Django Email Backend
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 25
-EMAIL_HOST_USER = 'krajasekar1701@gmail.com'  # txxttcahnnoitzju
+EMAIL_BACKEND = os.environ.get('EMAIL_BACKEND')
+EMAIL_HOST = os.environ.get('EMAIL_HOST')
+EMAIL_PORT = os.environ.get('EMAIL_PORT')
+EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')  # txxttcahnnoitzju
 # EMAIL_USE_TLS = True
 EMAIL_USE_SSL = True
-DEFAULT_FROM_EMAIL = "krajasekar1701@gmail.com"
-SERVER_EMAIL ="krajasekar1701@gmail.com"
-EMAIL_HOST_PASSWORD = "txxttcahnnoitzju"
+DEFAULT_FROM_EMAIL = os.environ.get('DEFAULT_FROM_EMAIL')
+SERVER_EMAIL =os.environ.get('SERVER_EMAIL')
+EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
 
 
 
