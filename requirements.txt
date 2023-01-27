@@ -1,0 +1,12 @@
+pip install django
+pip install django-email-verification
+pip install djangorestframework
+pip install django-cors-headers
+pip install django-multiselectfield
+pip install django-rest-passwordreset
+pip install djoser
+pip install django-crontab
+pip install django-cron
+pip install mysqlclient
+pip install typing-extensions
+pip install apscheduler
