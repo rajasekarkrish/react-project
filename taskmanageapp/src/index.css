@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+input::placeholder, select, .ant-table-tbody > tr > td, .delete-btn{
+  font-size: 12px !important;
+}
+label{
+font-weight: bold;
+}
+.ant-table-thead > tr > th{
+  color: rgb(0 0 0 / 85%) !important;
+  background: #d9dbeb !important;
+  font-weight: bold !important;
+  font-size: 15px !important;
+}
+
+.loader{
+  background-color: rgba(48, 48, 48, 0.274);
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 22;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+

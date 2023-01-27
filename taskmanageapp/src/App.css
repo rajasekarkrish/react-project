@@ -1,0 +1,379 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ant-input{
+  border: none;
+  border-bottom: 1px solid black;
+
+}
+
+.dashboard-btn{
+  position: fixed;
+  width: 100%;
+  z-index: 333;
+  margin: auto !important;
+
+}
+.header{
+  position: fixed;
+  width: 100%;
+  z-index: 333;
+
+}
+
+.uassign{
+  width: 20%;
+}
+
+
+
+.user{
+  display: inline-block;
+  padding: 5px;
+}
+
+.fre{
+  display: flex;
+  padding: 4px;
+}
+
+
+.small-select{
+  left:150px;
+}
+
+
+
+
+.row logincon{
+  top: 0px;
+  left: 0px;
+  width: 1366px;
+  height: 768px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+
+.logincon{
+top: 0px;
+width: 100%;
+height: 660px;
+background: #FFFBF9 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+border-radius: 27px 0px 0px 27px;
+opacity: 1;
+}
+
+.btn-sm{
+color: #FF460C;
+/* width: 16px !important;
+height: 20px !important; */
+}
+
+.appHeader{
+/* margin-top: 100px; */
+margin-left: 5px;
+width: 100%;
+/* UI Properties */
+text-align: left;
+font: normal normal 800 25px/27px Montserrat;
+letter-spacing: 0px;
+color: #303030;
+text-transform: uppercase;
+opacity: 1;
+}
+
+.divlogin{
+
+text-align: left;
+font: normal normal bold 22px/27px Montserrat;
+letter-spacing: 0px;
+color: black;
+opacity: 1;
+}
+
+.divloginmsg{
+margin-left: 5px;
+margin-top: -100px;
+/* width: 350px; */
+width:100%;
+text-align: left;
+font: normal normal medium 15px/19px Montserrat;
+letter-spacing: 0px;
+color: #777777;
+opacity: 1;
+}
+
+
+.ant-form-item-label > label {
+  font-size: 12px !important;
+  width:150px !important;
+  
+}
+
+.ant-form-item {
+  margin-bottom: 16px !important;
+}
+
+.ant-form-vertical .ant-form-item-row {
+  margin-top: 16px !important;
+}
+
+.ant-form-vertical .ant-form-item-label {
+  padding: 0px 0px 0px!important;
+}
+
+input:not([type='range']) {
+  border-radius: 5px !important;
+}
+
+.ant-input-affix-wrapper {
+  border-radius: 5px !important;
+}
+
+.card {
+  position: absolute !important;
+  --bs-card-height: 100% !important;
+  background-color: #FFFBF9;
+  display: block;
+  align-self: center;
+}
+
+
+#main {
+  background-color:#FFFBF9;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center; 
+  justify-content: center; 
+  text-align: center; 
+  padding: 20px;
+ 
+}
+
+
+
+/* .Absolute-Center {
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  text-align: center; 
+}   */
+
+
+.loginbutton{
+top: 564px;
+left: 787px;
+width: 534px;
+height: 35px;
+background: #FF460C 0% 0% no-repeat padding-box;
+border-radius: 8px;
+opacity: 1;
+font-weight: bold;
+}
+
+
+.ticket{
+  color:black;
+  background-color:#f8ded6;
+  font-size:medium;
+}
+.ticketassign{
+  float: right;
+}
+/* .dashboard {
+  background-color: #523F95;
+  
+} */
+
+
+
+
+.navdash{
+color: white;
+top: 91px;
+left: 1px;
+width: 1366px;
+height: 62px;
+background: #523F95 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+opacity: 1;
+}
+
+.company{
+margin-top: 0px !important;
+margin-bottom: 0px !important;
+left: 15px;
+width: 100%;
+height: 100%;
+background: #FCFCFC 0% 0% no-repeat padding-box;
+box-shadow: 0px 2px 2px #00000029;
+border-radius: 15px;
+opacity: 1;
+overflow: hidden; 
+}
+
+.department{
+  margin: 1%;
+  padding: 1%;
+  left: 15px;
+  width: 100%;
+  height: 100%;
+  background: #FCFCFC 0% 0% no-repeat padding-box;
+  box-shadow: 0px 2px 2px #00000029;
+  border-radius: 15px;
+  opacity: 1;
+  overflow: hidden; 
+  }
+  .category{
+    left: 15px;
+    width: 100%;
+    height: 100%;
+    background: #FCFCFC 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 2px #00000029;
+    border-radius: 15px;
+    opacity: 1;
+    overflow: hidden;
+  }
+.categoryref{
+    top: 157px;
+    left: 15px;
+    width: 100%;
+    height: 100%;
+    background: #FCFCFC 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 2px #00000029;
+    border-radius: 15px;
+    opacity: 1;
+    overflow: hidden;
+}
+
+.activity{
+    left: 15px;
+    width: 100%;
+    height: 100%;
+    background: #FCFCFC 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 2px #00000029;
+    border-radius: 15px;
+    opacity: 1;
+    /* overflow: hidden; */
+}
+
+.user{
+    width: 100%;
+    background: #FCFCFC 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 2px #00000029;
+    border-radius: 15px;
+    opacity: 1;
+    overflow: hidden;
+}
+
+.frequency {
+width: 100%;
+background: #FCFCFC 0% 0% no-repeat padding-box;
+box-shadow: 0px 2px 2px #00000029;
+border-radius: 15px;
+opacity: 1;
+overflow: hidden;
+}
+
+/* .userassignee{
+top: 157px;
+left: 15px;
+width: 1336px;
+height: 161px;
+background: #FCFCFC 0% 0% no-repeat padding-box;
+box-shadow: 0px 2px 2px #00000029;
+border-radius: 15px;
+opacity: 1;
+overflow: hidden;
+} */
+
+
+.compbutton{
+  position:absolute;
+  top: 10px;
+  right: -173px;
+}
+
+    .ant-table-thead > tr > th {
+      background: #FFEDE8 !important;
+  }
+
+  .ant-tabs-tab {
+    color: white !important;
+  }
+  
+  .ant-tabs-tab-active {
+    color: white !important;
+  }
+
+ 
+ .dashboardnav{
+  color: white !important;
+ }
+
+ .tabs{
+    /* top: 91px; */
+    left: 1px;
+    width: 100%;
+    height: 62px;
+    background: #523F95 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    
+ }
+
+ html {
+  overflow-y: scroll; 
+}
+
+ .loginform{
+  margin-top: -150px;
+ }
+
+
+
+
+
+.css-13xfq8m-MuiTabPanel-root {
+  padding: 1% !important;
+}
